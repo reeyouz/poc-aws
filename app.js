@@ -2,7 +2,6 @@ const fs = require("fs");
 const app_root_path = require("app-root-path");
 const path = require("path");
 const express = require("express");
-const { config } = require("dotenv");
 const {
     S3Client,
     ListObjectsV2Command,
@@ -11,7 +10,9 @@ const {
 } = require("@aws-sdk/client-s3");
 const db = require("./db.json");
 
-config();
+if (process.env.NODE_ENV !== "production") {
+    require("dotenv").config();
+}
 
 const Bucket = process.env.BUCKET;
 const PORT = process.env.PORT || 3000;
