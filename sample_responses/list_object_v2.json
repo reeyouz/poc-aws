@@ -1,0 +1,31 @@
+{
+    "$metadata": {
+      "httpStatusCode": 200,
+      "requestId": "W0895ETVX09GHEYM",
+      "extendedRequestId": "rDDifvcnKZ0/43LsLZQu7Z/q7FVH8dtXJB3N4ehddgTUtGv/oSgdJNcM3POup75OvEC0IqY+twg=",
+      "attempts": 1,
+      "totalRetryDelay": 0
+    },
+    "Contents": [
+      {
+        "Key": "test1.txt",
+        "LastModified": {},
+        "ETag": "\"9a45012eea7d5ebc7a00c447fd806240\"",
+        "Size": 40,
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "test2.txt",
+        "LastModified": {},
+        "ETag": "\"d88c8e760f8d329151cdc6b59144c159\"",
+        "Size": 23,
+        "StorageClass": "STANDARD"
+      }
+    ],
+    "IsTruncated": false,
+    "KeyCount": 2,
+    "MaxKeys": 1000,
+    "Name": "arijit-test-bucket",
+    "Prefix": ""
+  }
+  

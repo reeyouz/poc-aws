@@ -1,0 +1,56 @@
+{
+  "$metadata": {
+    "httpStatusCode": 200,
+    "requestId": "S6JGVTX6Y2DPXQK0",
+    "extendedRequestId": "wzKVflr27cbNb0Mjy7e4B8n+sktWb+LyGMrWtDlfH4hdHGfDosE6+X/KCb0mjju1bcTENUl4hRs=",
+    "attempts": 1,
+    "totalRetryDelay": 0
+  },
+  "IsTruncated": false,
+  "KeyMarker": "",
+  "MaxKeys": 1000,
+  "Name": "arijit-test-bucket",
+  "Prefix": "",
+  "VersionIdMarker": "",
+  "Versions": [
+    {
+      "ETag": "\"9a45012eea7d5ebc7a00c447fd806240\"",
+      "Size": 40,
+      "StorageClass": "STANDARD",
+      "Key": "test1.txt",
+      "VersionId": "4qbDyGiqKzgZsRitP6WhLs_PJhzpca7v",
+      "IsLatest": true,
+      "LastModified": {},
+      "Owner": {
+        "DisplayName": "coolari7",
+        "ID": "e075cdb3f147bfa99a765c924d2a132c395c22fd4bf47c5a3c3d6a4dc24e7540"
+      }
+    },
+    {
+      "ETag": "\"26dd821b806bf716df8d1a429a2fbf53\"",
+      "Size": 23,
+      "StorageClass": "STANDARD",
+      "Key": "test1.txt",
+      "VersionId": "1qyQRIMQgX6k7iw5OWFxzHaUPSBChGv5",
+      "IsLatest": false,
+      "LastModified": {},
+      "Owner": {
+        "DisplayName": "coolari7",
+        "ID": "e075cdb3f147bfa99a765c924d2a132c395c22fd4bf47c5a3c3d6a4dc24e7540"
+      }
+    },
+    {
+      "ETag": "\"d88c8e760f8d329151cdc6b59144c159\"",
+      "Size": 23,
+      "StorageClass": "STANDARD",
+      "Key": "test2.txt",
+      "VersionId": "4Dp7yIbch00qA8EZlNUHncRUgWPRy7ed",
+      "IsLatest": true,
+      "LastModified": {},
+      "Owner": {
+        "DisplayName": "coolari7",
+        "ID": "e075cdb3f147bfa99a765c924d2a132c395c22fd4bf47c5a3c3d6a4dc24e7540"
+      }
+    }
+  ]
+}
